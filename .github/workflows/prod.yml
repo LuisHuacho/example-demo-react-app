@@ -1,4 +1,4 @@
-name: Upload Website Stage
+name: Upload Website Production
 
 on:
   push:
