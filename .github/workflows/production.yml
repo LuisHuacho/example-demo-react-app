@@ -32,8 +32,8 @@ jobs:
       with:
         args: --acl public-read --delete
       env:
-        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET_PROD }}
+        AWS_S3_BUCKET: "drinuxdemo2"
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_PROD }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_PROD }}
-        AWS_REGION: us-west-2
+        AWS_REGION: "us-west-2"
         SOURCE_DIR: "build"
